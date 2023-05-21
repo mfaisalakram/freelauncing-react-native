@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "524959896970",
+    "firebase_url": "https://octane-f5b20-default-rtdb.firebaseio.com",
+    "project_id": "octane-f5b20",
+    "storage_bucket": "octane-f5b20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524959896970:android:945b6acc301f2d07556473",
+        "android_client_info": {
+          "package_name": "com.octane.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524959896970-gsr7sjnnh1sh6erbevl9ssuns5o47grs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9umY5M0PfgltjFMzvXVDR0bUC3VZFUkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524959896970-gsr7sjnnh1sh6erbevl9ssuns5o47grs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

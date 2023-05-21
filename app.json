@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "userInterfaceStyle": "automatic",
+    "name": "Aplha Work",
+    "slug": "alpha-work",
+    "scheme": "alphawork",
+    "description": "Soccer",
+    "platforms": ["ios", "android"],
+    "version": "1",
+    "orientation": "portrait",
+    "icon": "./assets/mainlogo.png",
+    "splash": {
+      "image": "./assets/splash3.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "buildNumber": "1.1.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.felony.ios",
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "We use Tracking to fix bugs and improve your experience.",
+        "NSCameraUsageDescription": "Camera used for profile picture",
+        "NSPhotoLibraryUsageDescription": "Photos used for profile picture"
+      }
+    },
+    "android": {
+      "versionCode": 2,
+      "package": "com.felony.android",
+      "permissions": [
+        "CAMERA",
+        "READ_INTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": ["expo-image-picker", "expo-media-library"]
+  }
+}
